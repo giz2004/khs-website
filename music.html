@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Player</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: linear-gradient(135deg, #d4a5a5, #f6c1c1);
+      font-family: "Quicksand", "Arial", sans-serif;
+    }
+    .music-player {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 15px;
+      box-sizing: border-box;
+    }
+    .player-title {
+      font-size: 0.9rem;
+      color: #ffffff;
+      margin-bottom: 5px;
+      text-align: center;
+      font-weight: 600;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    iframe {
+      width: 100%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="music-player">
+    <div class="player-title"></div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2KufM8PiQY4i52XhRL96Fd?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</body>
+</html>

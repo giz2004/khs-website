@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <base target="content">
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <nav>
+    <a href="home.html" target="content">Home</a>
+    <a href="about.html" target="content">About Me</a>
+    <a href="interests.html" target="content">Interests</a>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Get in Touch</h2>
+      <p>If you'd like to get in touch, feel free to reach out via email or use the contact form below:</p>
+      <p>ulugbekovnabanu@gmail.com</p>
+
+      <form action="mailto:ulugbekovnabanu@gmail.com" method="POST" enctype="multipart/form-data" target="_blank">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 KH website — Built with 🤍</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
